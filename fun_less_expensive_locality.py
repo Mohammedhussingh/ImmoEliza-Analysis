@@ -29,7 +29,7 @@ def less_expensive_locality(df):
             'Avg_Price_per_SqM': round(price_per_square_meter, 2) if price_per_square_meter is not None else None
         })
         municipality_stats = pd.DataFrame(results)
-        municipality_stats = municipality_stats.sort_values(by='Average_Price', ascending=False)
+        municipality_stats = municipality_stats.sort_values(by='Average_Price', ascending=True)
 
     return municipality_stats
 
