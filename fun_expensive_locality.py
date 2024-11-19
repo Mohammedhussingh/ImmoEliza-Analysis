@@ -1,6 +1,10 @@
 import pandas as pd
 
-def less_expensive_locality(df):
+
+
+
+def expensive_locality(df):
+
 
     localities = df['Locality'].unique()
     df['Surface_total']=df['Living_Area']+df['Land_Surface']
@@ -19,6 +23,7 @@ def less_expensive_locality(df):
         if not valid_surface_data.empty:
             price_per_square_meter = (valid_surface_data['Price'] / valid_surface_data['Surface_total']).mean()
         else:
+
              price_per_square_meter = None  
 
       
@@ -30,6 +35,7 @@ def less_expensive_locality(df):
         })
         municipality_stats = pd.DataFrame(results)
         municipality_stats = municipality_stats.sort_values(by='Average_Price', ascending=False)
+
 
     return municipality_stats
 
