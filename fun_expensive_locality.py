@@ -1,3 +1,5 @@
+import pandas as pd
+
 def expensive_locality(df):
 
     localities = df['Locality'].unique()
@@ -26,8 +28,7 @@ def expensive_locality(df):
             'Median_Price': round(median_price, 2),
             'Avg_Price_per_SqM': round(price_per_square_meter, 2) if price_per_square_meter is not None else None
         })
-    return results
+        municipality_stats = pd.DataFrame(results)
+        municipality_stats = municipality_stats.sort_values(by='Average_Price', ascending=False)
 
-# Convert in a DataFrame for a understoodable output
-# municipality_stats = pd.DataFrame(results)
-# municipality_stats = municipality_stats.sort_values(by='Average_Price', ascending=False)
+    return municipality_stats
