@@ -17,7 +17,7 @@ def expensive_locality(df):
         if not valid_surface_data.empty:
             price_per_square_meter = (valid_surface_data['Price'] / valid_surface_data['Surface_total']).mean()
         else:
-             price_per_square_meter = None  # Nessun calcolo se non ci sono superfici valide
+             price_per_square_meter = None 
 
       
         results.append({
