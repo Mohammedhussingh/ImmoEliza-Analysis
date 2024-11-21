@@ -124,3 +124,16 @@ Communicate the insights gained from your analysis using visual tools and summar
 | Excellence     | Answered additional creative questions      |        |
 |                | Addressed bonus questions                   |        |
 |                | Used effective colors in visualizations     |        |
+
+![Screenshot from 2024-11-20 15-39-12](https://github.com/user-attachments/assets/05eb2d18-6eda-49c1-9d7a-d9b2fe2517e0)
+                                    Example for Graphs we created 
+
+
+## Contributors
+
+- **Mohamad**: Responsible for data cleaning, organization, encoding, and feature engineering.
+- **Nicole**: Focused on data exploration, feature prioritization, and preparing presentations.
+- **Vero**: Contributed to data encoding, data analysis, and answering the required questions.
+
+
+
