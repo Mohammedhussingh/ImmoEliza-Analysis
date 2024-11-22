@@ -29,7 +29,7 @@ To set up the environment for this project:
    ```
 4. **Install Required Packages**:
    ```bash
-   pip install -r requirements.txt
+pip install pandas numpy matplotlib seaborn folium scikit-learn
    ```
 
 ## Usage
@@ -40,21 +40,29 @@ To run the data analysis:
    ```bash
    source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
    ```
-2. **Run the Analysis Script**:
+2. **View Analysis Process**:
    ```bash
-   python analyze_data.py
+   Data_Analysis.ipynb
    ```
-   This script will clean the dataset, perform exploratory analysis, and generate visualizations.
+   This file outlines the steps we took to clean, analyze and visualize the data.
 
 ## Visuals
 
---
+View "ImmoEliza - Data Analysis Presentation.pdf" for insights and interpretations.
+
+![Screenshot from 2024-11-20 15-39-12](https://github.com/user-attachments/assets/05eb2d18-6eda-49c1-9d7a-d9b2fe2517e0)
+                                    Example for Graphs we created 
 
 ## Contributors
 
 - **Hussain**: https://github.com/Mohammedhussingh
+Responsible for data cleaning, organization, encoding, and feature engineering.
+
 - **Vera**: https://github.com/IVera96
+Contributed to data encoding, data analysis, and answering the required questions.
+
 - **Nicole**: https://github.com/npret
+Focused on data exploration, feature prioritization, and preparing presentation.
 
 ## Timeline
 
@@ -62,9 +70,6 @@ To run the data analysis:
 2. **Day 2**: Exploratory Data Analysis and Visualization.
 3. **Day 3**: Interpretation, Insights, and Presentation.
 
-## Personal Insights
-
---
 
 ## Mission Objectives
 
@@ -125,15 +130,7 @@ Communicate the insights gained from your analysis using visual tools and summar
 |                | Addressed bonus questions                   |        |
 |                | Used effective colors in visualizations     |        |
 
-![Screenshot from 2024-11-20 15-39-12](https://github.com/user-attachments/assets/05eb2d18-6eda-49c1-9d7a-d9b2fe2517e0)
-                                    Example for Graphs we created 
 
-
-## Contributors
-
-- **Mohamad**: Responsible for data cleaning, organization, encoding, and feature engineering.
-- **Nicole**: Focused on data exploration, feature prioritization, and preparing presentations.
-- **Vero**: Contributed to data encoding, data analysis, and answering the required questions.
 
 
 
