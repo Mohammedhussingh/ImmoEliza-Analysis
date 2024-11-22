@@ -29,7 +29,7 @@ To set up the environment for this project:
    ```
 4. **Install Required Packages**:
    ```bash
-pip install pandas numpy matplotlib seaborn folium scikit-learn
+   pip install pandas numpy matplotlib seaborn folium scikit-learn
    ```
 
 ## Usage
